@@ -1,0 +1,11 @@
+.book__info {
+  margin: 8px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 425px) {
+  .book__info {
+    font-size: 16px;
+  }
+}

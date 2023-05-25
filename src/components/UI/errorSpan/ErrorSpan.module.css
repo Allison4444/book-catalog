@@ -1,0 +1,11 @@
+.error {
+  color: red;
+  font-size: 14px;
+  padding-left: 3px;
+  visibility: hidden;
+  min-height: 17px;
+}
+
+.error.visible {
+  visibility: visible;
+}
