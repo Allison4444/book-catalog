@@ -101,7 +101,7 @@ function BookForm({ create }) {
           value={formValues.isbn}
           onChange={(e) => handleInputChange(e, "isbn")}
           type="text"
-          placeholder="Укажите ISBN"
+          placeholder="Формат ISBN: xxx-x-xxxx-xxxx-x"
           id="isbn"
         />
         <ErrorSpan error={formErrors.isbn}>{formErrors.isbn}</ErrorSpan>
