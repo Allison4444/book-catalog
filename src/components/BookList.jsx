@@ -47,10 +47,10 @@ function BookList({ books, title, remove }) {
         </div>
       )
       }
-      {groupName[0].map((year) => (
-        <div key={year}>
-          <h2 className="page__group-title">{year}</h2>
-          {groupName[1][year].map((book) => (
+      {groupName[0].map((group) => (
+        <div key={group}>
+          <h2 className="page__group-title">{group}</h2>
+          {groupName[1][group].map((book) => (
             <Book
               remove={remove}
               book={book}
