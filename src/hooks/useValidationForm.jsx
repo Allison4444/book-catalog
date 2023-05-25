@@ -34,7 +34,11 @@ function useValidationForm(initialState) {
       (initialState.isbn &&
         !/^\d{3}-\d-\d{2}-\d{6}-\d$/.test(initialState.isbn)) &&
       (initialState.isbn &&
-        !/^\d{3}-\d-\d{4}-\d{4}-\d$/.test(initialState.isbn))) {
+        !/^\d{3}-\d-\d{4}-\d{4}-\d$/.test(initialState.isbn)) &&
+      (initialState.isbn &&
+        !/^\d{3}-\d-\d{6}-\d{2}-\d$/.test(initialState.isbn)) &&
+      (initialState.isbn &&
+        !/^\d{3}-\d-\d{5}-\d{3}-\d$/.test(initialState.isbn))) {
         errors.isbn = "Введите ISBN в правильном формате";
         isValid = false;
       }
