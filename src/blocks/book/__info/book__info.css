@@ -8,4 +8,8 @@
   .book__info {
     font-size: 16px;
   }
+
+  .book__info:last-of-type {
+    margin-bottom: 15px;
+  }
 }
