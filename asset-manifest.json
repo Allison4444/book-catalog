@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/book-catalog/static/css/main.a4ecb31e.css",
+    "main.js": "/book-catalog/static/js/main.7287a86d.js",
+    "static/media/Inter-Medium.woff": "/book-catalog/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff": "/book-catalog/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/book-catalog/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2": "/book-catalog/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2": "/book-catalog/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/book-catalog/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "index.html": "/book-catalog/index.html",
+    "main.a4ecb31e.css.map": "/book-catalog/static/css/main.a4ecb31e.css.map",
+    "main.7287a86d.js.map": "/book-catalog/static/js/main.7287a86d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4ecb31e.css",
+    "static/js/main.7287a86d.js"
+  ]
+}
