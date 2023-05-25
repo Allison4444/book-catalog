@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Проект: Book-catalog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Тестовое задание выглядит так:
 
-In the project directory, you can run:
+![Тестовое задание](./src/images/test-task.PNG)
 
-### `npm start`
+### Обзор
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Описание проекта и его функциональности
+- Используемые технологии
+- Какие команды нужно выполнить для сборки и запуска проекта?
+- Ссылка на GitHub Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Описание проекта и его функциональности
 
-### `npm test`
+Проект представляет из себя католог книг. Книги можно добавлять и удалять. Настроена кастомная валидация формы. Каталог рекомендует одну из лучших книг на портале. Хранение данных организовано с помощью Firestore.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Используемые технологии
 
-### `npm run build`
+HTML5;
+CSS3;
+JavaScript ES6;
+React 18;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Также в разработке использовались:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Анимации с помощью CSS;
+Flexbox-верстка;
+БЭМ-методология;
+Адаптивная верстка под различные устройства;
+Git.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Какие команды нужно выполнить для сборки и запуска проекта:
 
-### `npm run eject`
+- Склонируйте репозиторий с проектом на свой локальный компьютер:<br>**git clone git@github.com:Allison4444/book-catalog.git**<br><br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Перейдите в каталог проекта:<br>**cd book-catalog**<br><br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Установите зависимости, указанные в файле package.json, с помощью команды:<br>**npm install**<br><br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Запустите проект локально на своем компьютере, используя команду:<br>**npm start**<br>Эта команда запустит локальный сервер и откроет приложение в вашем браузере по адресу **http://localhost:3000**.<br><br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Для сборки проекта в продакшн режиме, используйте команду:<br>**npm run build**<br>Эта команда создаст оптимизированную версию проекта в папке build.<br><br>
 
-## Learn More
+Эти команды должны быть достаточными для запуска и сборки проекта **book-catalog**. Обязательно убедитесь, что у вас установлен Node.js и npm, чтобы эти команды работали.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Ссылка на GitHub Pages:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**https://allison4444.github.io/book-catalog/**
