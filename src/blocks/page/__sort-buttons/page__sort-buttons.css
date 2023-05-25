@@ -1,0 +1,14 @@
+.page__sort-buttons {
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 470px) {
+  .page__sort-buttons {
+    flex-direction: column;
+    height: 120px;
+  }
+}

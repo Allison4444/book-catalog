@@ -4,6 +4,7 @@
 @import url(./blocks/page/__title/page__title.css);
 @import url(./blocks/page/__group-title/page__group-title.css);
 @import url(./blocks/page/__book-list/page__book-list.css);
+@import url(./blocks/page/__sort-buttons/page__sort-buttons.css);
 @import url(./blocks/form/form.css);
 @import url(./blocks/form/__save-button/form__save-button.css);
 @import url(./blocks/book/book.css);
