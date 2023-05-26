@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Book from "./Book";
 import useBookSorting from "../hooks/useBookSorting";
-import Button from "./UI/button/Button";
 import GroupingButtons from "./GroupingButtons";
 
 function BookList({ books, title, remove }) {
@@ -20,7 +19,7 @@ function BookList({ books, title, remove }) {
     if (groupedBy === 'rating') return [rating, groupedBooksByRating];
     return [years, groupedBooksByYears];
   }
-  const groupName = checkGroupedBy();
+  const [arrayWithGroupName, sortedObject] = checkGroupedBy();
 
   return (
     <div className="page__book-list">
@@ -43,10 +42,10 @@ function BookList({ books, title, remove }) {
         </div>
       )
       }
-      {groupName[0].map((group) => (
+      {arrayWithGroupName.map((group) => (
         <div key={group}>
           <h2 className="page__group-title">{group}</h2>
-          {groupName[1][group].map((book) => (
+          {sortedObject[group].map((book) => (
             <Book
               remove={remove}
               book={book}
