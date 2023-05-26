@@ -2,6 +2,7 @@ import { useState } from "react";
 import Book from "./Book";
 import useBookSorting from "../hooks/useBookSorting";
 import Button from "./UI/button/Button";
+import GroupingButtons from "./GroupingButtons";
 
 function BookList({ books, title, remove }) {
   const [groupedBy, setGroupedBy] = useState('years');
@@ -23,12 +24,7 @@ function BookList({ books, title, remove }) {
 
   return (
     <div className="page__book-list">
-      <h3 className="page__group-title">Группировать книги:</h3>
-      <div className="page__sort-buttons">
-        <Button onClick={() => setGroupedBy('rating')} >По рейтингу</Button>
-        <Button onClick={() => setGroupedBy('authors')} >По автору</Button>
-        <Button onClick={() => setGroupedBy('years')} >По году</Button>
-      </div>
+      <GroupingButtons title='Группировать книги:' setGroupedBy={setGroupedBy} />
       <h1 className="page__title">{title}</h1>
       {randomRecommendedBook &&
       (
